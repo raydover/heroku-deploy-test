@@ -38,6 +38,7 @@ describe('IssueItem', () => {
     expect(container.textContent).toBe('Git: Support git history in VSCode');
   });
 
+  
   // TODO: render the IssueItem component and format the rendered HTML with the pretty package before saving it as an snapshot.
   it('should match snapshot', () => {});
 });
